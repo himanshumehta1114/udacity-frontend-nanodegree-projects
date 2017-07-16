@@ -1,0 +1,88 @@
+@media screen and (max-width:994px) {
+	.col-md-3 {
+		width:50%;
+	}
+	.full {
+		width:100%;
+		height:auto;
+	}
+}
+
+@media screen and (max-width: 460px){
+	.col-md-3 {
+		width:100%;
+	}
+	
+}
+
+.logo {
+	margin-top: 10px;
+	width:100px;
+	height:100px;
+}
+
+.main-img {
+	width:100%;
+	height:auto;
+}
+
+.content {
+	width: 100%;
+}
+
+.head-color {
+	color: #02b3e4;
+}
+
+.desg {
+	color: #2d3c49;
+	text-transform: uppercase;
+}
+
+h1, h2 ,h3 {
+	font-family: 'Bubbler One', sans-serif;
+}
+
+hr {
+	border-width: 2px;
+	border-color: #000;
+}
+
+.all-zero {
+	margin:0;
+	padding:0;
+}
+
+.under {
+	color:#42a5f5;
+	text-decoration:underline;
+}
+
+.works {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer {
+	text-align: center;
+	width:100%;
+}
+
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+.font {
+	font-size:1.5em;
+}
+
+.border {
+	border:2px solid;
+	box-shadow: 1px 1px 1px;
+}
